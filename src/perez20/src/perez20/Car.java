@@ -25,6 +25,6 @@ public class Car {
 	}
 	
 	public String carToString(){
-		return "Make: " + make + ", Model: " + model + ", Price: " + price;
+		return "Car: " + make + " " + model + ", Price: $" + price;
 	}
 }
