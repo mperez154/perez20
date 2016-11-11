@@ -1,7 +1,6 @@
 package perez20;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 
 public class CarLists {
@@ -9,13 +8,10 @@ public class CarLists {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<Car> myCars = new ArrayList<>();
-		Car car1 = new Car("Chevy", "Sonic", 11999.99);
-		Car car2 = new Car("Chevy", "Corvette", 75999.99);
-		Car car3 = new Car("Chevy", "Silverado", 29999.99);
-		
-		myCars.add(car1);
-		myCars.add(car2);
-		myCars.add(car3);
+				
+		myCars.add(new Car("Chevy", "Sonic", 11999.99));
+		myCars.add(new Car("Chevy", "Corvette", 75999.99));
+		myCars.add(new Car("Chevy", "Silverado", 29999.99));
 		
 		Iterator<Car> iterator = myCars.iterator();
 		while(iterator.hasNext()){
